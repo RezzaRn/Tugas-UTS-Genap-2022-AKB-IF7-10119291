@@ -5,30 +5,37 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Semua catatan"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.xstudioo.noteme.Edit">
+        <activity
+            android:name="com.utsAKB.RezzaRamdhani_10119291.TentangAplikasi"
+            android:exported="false" />
+        <activity
+            android:name="com.utsAKB.RezzaRamdhani_10119291.Profile"
+            android:exported="false" />
+        <activity android:name="com.utsAKB.RezzaRamdhani_10119291.Edit">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.xstudioo.noteme.MainActivity" />
+                android:value="com.utsAKB.RezzaRamdhani_10119291.MainActivity" />
         </activity>
         <activity
-            android:name="com.xstudioo.noteme.Detail"
+            android:name="com.utsAKB.RezzaRamdhani_10119291.Detail"
             android:label="@string/title_activity_detail"
-            android:parentActivityName="com.xstudioo.noteme.MainActivity"
+            android:parentActivityName="com.utsAKB.RezzaRamdhani_10119291.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.xstudioo.noteme.MainActivity" />
+                android:value="com.utsAKB.RezzaRamdhani_10119291.MainActivity" />
         </activity>
-        <activity android:name="com.xstudioo.noteme.AddNote">
+        <activity android:name="com.utsAKB.RezzaRamdhani_10119291.AddNote">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.xstudioo.noteme.MainActivity" />
+                android:value="com.utsAKB.RezzaRamdhani_10119291.MainActivity" />
         </activity>
-        <activity android:name="com.xstudioo.noteme.MainActivity">
+        <activity android:name="com.utsAKB.RezzaRamdhani_10119291.MainActivity" />
+        <activity android:name="com.utsAKB.RezzaRamdhani_10119291.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
